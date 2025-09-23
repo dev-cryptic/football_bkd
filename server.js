@@ -13,6 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://atest.khelinfo.in",
       "https://khelinfo-frontend.vercel.app",
     ],
     methods: ["GET"],
